@@ -1,9 +1,10 @@
 @import 'libs/bootstrap-reboot.min';
-
+@import 'libs/font';
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gilroy' , sans-serif;
 }
 
 .container {
@@ -20,3 +21,5 @@
 
 
 @import 'blocks/menu';
+@import 'blocks/about';
+@import 'blocks/title';
