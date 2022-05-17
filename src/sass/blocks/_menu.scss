@@ -1,0 +1,51 @@
+.menu {
+    height: 745px;
+    margin: 33px 0 0 0;
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        font-size: 18px;
+        line-height: 22px;
+        color: #828282;
+        font-weight: 700;
+        :hover {
+            color: #000;
+        }
+    }
+    li {
+        cursor: pointer;
+    }
+    &__about {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin: 40px 0 0 0;
+        flex-wrap: wrap;
+        &_name {
+            margin-bottom: 0;
+            font-size: 47px;
+            line-height: 47px;
+            color: #070707;
+        }
+        &_age {
+            font-size: 20px;
+            line-height: 20px;
+            color: #070707;
+        }
+        &_lang {
+            display: flex;
+            list-style-type: none;
+            transform: rotate(-90deg);
+            font-size: 18px;
+            color: #828282;
+            margin-right: -25px;
+            :hover {
+                color: #000;
+            }
+        }
+        img {
+            margin: 50px 0 0 0;
+        }
+    }
+}
