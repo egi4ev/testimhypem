@@ -1,0 +1,38 @@
+.skills {
+    padding: 91px 0 110px 0;
+    &__title {
+        margin-bottom: 70px;
+    }
+    &__text {
+        margin-bottom: 85px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        width: 170px;
+        >img {
+            display: block;
+            margin: 0 auto;
+        }
+        &__text {
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            font-weight: 700;
+            color: $grey-color;
+            margin-top: 25px;
+        }
+        &__stars {
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-between;
+        }
+        &__star {
+            width: 26px;
+            height: 26px;
+        }
+    }   
+}

@@ -1,5 +1,6 @@
 @import 'libs/bootstrap-reboot.min';
 @import 'libs/font';
+@import 'base/variables';
 * {
     margin: 0;
     padding: 0;
@@ -23,3 +24,4 @@
 @import 'blocks/menu';
 @import 'blocks/about';
 @import 'blocks/title';
+@import 'blocks/skills';
