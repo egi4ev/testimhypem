@@ -44,8 +44,16 @@
                 color: #000;
             }
         }
-        img {
+        &__img {
             margin: 50px 0 0 0;
+            &_mobile {
+                display: none;
+            }
         }
+        
     }
+}
+
+.hamburger {
+    display: none;
 }

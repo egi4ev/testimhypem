@@ -1,9 +1,19 @@
 .contacts {
     padding: 114px 0 123px 0;
     &__btn {
-        display: flex;
-        margin: 0 auto 85px auto;
-        justify-content: center;
+            display: block;
+            margin: 0 auto 85px auto;
+            justify-content: center;
+            width: 180px;
+            height: 42px;
+            border-radius: 21px;
+            border: none;
+            background-color: #000;
+            font-size: 18px;
+            line-height: 22px;  
+            text-align: center;
+            font-weight: 700;
+            color: #FFFFFF;
     }
     &__icons {
         display: flex;
