@@ -1,0 +1,15 @@
+.portfolio {
+    background-color: #f6f6f6;
+    padding: 112px 0 96px 0;
+    &__card {
+        margin: 47px 0 1px 0;
+        display: flex;
+        flex-wrap: wrap;
+        &_text {
+            text-decoration: underline;
+            margin: 0 auto;
+            margin-top: 48px;
+            text-align: center;
+        }
+    }
+}
